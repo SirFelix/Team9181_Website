@@ -1,0 +1,65 @@
+<svg viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="mascotTitle">
+  <title id="mascotTitle">Platy Pirates mascot: a pirate platypus wearing an eyepatch and captain's hat</title>
+  <defs>
+    <style>
+      .body-fill { fill: #6B1E2A; }
+      .body-shade { fill: #3F0F1A; }
+      .bill-fill { fill: #C9A24B; }
+      .bill-shade { fill: #A9853A; }
+      .ink { fill: #221D1B; }
+      .cream { fill: #F1E6CF; }
+      .grey { fill: #8C8478; }
+    </style>
+  </defs>
+
+  <!-- tail -->
+  <path class="body-fill" d="M60 300 C 20 290, 15 250, 45 235 C 80 218, 110 250, 95 285 C 88 300, 72 305, 60 300 Z"/>
+  <path class="body-shade" d="M55 295 C 35 285, 35 260, 55 250 C 60 265, 62 280, 55 295 Z"/>
+
+  <!-- body -->
+  <ellipse class="body-fill" cx="190" cy="255" rx="115" ry="90"/>
+  <path class="body-shade" d="M110 300 C 150 330, 240 330, 280 295 C 250 320, 150 320, 110 300 Z"/>
+
+  <!-- belly -->
+  <ellipse class="cream" cx="200" cy="275" rx="60" ry="45" opacity="0.35"/>
+
+  <!-- feet -->
+  <ellipse class="bill-fill" cx="150" cy="335" rx="26" ry="14"/>
+  <ellipse class="bill-fill" cx="245" cy="335" rx="26" ry="14"/>
+
+  <!-- captain's hat -->
+  <path class="ink" d="M95 150 C 130 100, 250 100, 285 150 C 250 165, 130 165, 95 150 Z"/>
+  <path d="M95 150 C 130 165, 250 165, 285 150 C 270 175, 110 175, 95 150 Z" class="body-shade"/>
+  <circle cx="190" cy="128" r="10" class="bill-fill"/>
+  <path class="grey" d="M100 148 C 135 158, 245 158, 280 148 L 280 156 C 245 166, 135 166, 100 156 Z"/>
+
+  <!-- skull emblem on hat -->
+  <g transform="translate(190,128)">
+    <circle r="0" fill="none"/>
+  </g>
+
+  <!-- head -->
+  <ellipse class="body-fill" cx="190" cy="200" rx="80" ry="65"/>
+
+  <!-- bill (duck bill, platypus signature) -->
+  <path class="bill-fill" d="M115 205 C 90 210, 75 225, 78 240 C 80 255, 105 262, 135 258 C 160 254, 175 235, 168 218 C 162 205, 138 200, 115 205 Z"/>
+  <path class="bill-shade" d="M85 235 C 100 245, 130 248, 155 240 C 135 250, 100 250, 85 235 Z"/>
+  <!-- nostrils -->
+  <circle cx="105" cy="222" r="3" class="ink"/>
+  <circle cx="118" cy="218" r="3" class="ink"/>
+
+  <!-- good eye -->
+  <circle cx="215" cy="180" r="9" class="ink"/>
+  <circle cx="218" cy="177" r="2.5" class="cream"/>
+
+  <!-- eyepatch -->
+  <ellipse cx="168" cy="178" rx="16" ry="20" class="ink" transform="rotate(-8 168 178)"/>
+  <path class="ink" d="M175 165 L 260 130 L 262 138 L 178 176 Z"/>
+  <path class="ink" d="M162 195 L 205 260 L 198 264 L 158 202 Z"/>
+
+  <!-- eyebrow scar flair -->
+  <path class="ink" d="M200 165 C 208 162, 216 162, 222 166" stroke="#221D1B" stroke-width="3" fill="none" stroke-linecap="round"/>
+
+  <!-- bandana knot at back -->
+  <path class="bill-fill" d="M255 165 L 285 155 L 280 175 L 260 180 Z"/>
+</svg>
